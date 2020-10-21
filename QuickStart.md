@@ -1,7 +1,9 @@
  
 ```diff
 - If you don't have a software (NS,AS,JS) that enables DNS resolution as in the LoRaWAN backend specifications, you have to 
-- download the .deb packages "chirpstack-network-server_SNAPSHOT-208a8a9_linux_amd64.deb" and "chirpstack-application-server_SNAPSHOT-e21db98_linux_amd64.deb" from https://www.dropbox.com/sh/sd5qn3d4arrjetk/AACOZ8TH8qunr89efQFPjkAja?dl=0. 
+- download the .deb packages "chirpstack-network-server_SNAPSHOT-208a8a9_linux_amd64.deb" and 
+- "chirpstack-application-server_SNAPSHOT-e21db98_linux_amd64.deb" from 
+- https://www.dropbox.com/sh/sd5qn3d4arrjetk/AACOZ8TH8qunr89efQFPjkAja?dl=0. 
 ```
  
  1. [Verify] whether the required ports are open between the different interfaces  
