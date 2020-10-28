@@ -37,8 +37,8 @@ If you are confused regarding JoinEUI and NetID:
 1. There is a [discussion]
 2. Make sure that your test NetID or JoinEUI is [not yet] provisioned in the roaming platform
 3. For your NetID  or JoinEUI, please provide the DNS Resource record that the IDs point to
-    * a.) example ```60050a.NETIDS.lorawan.net  IN	NS 	example.com.```. So you have to send us the DNS RR type (i.e. ```NS```) and the reference (```example.com``` )
-    * b. example ```8.0.7.0.6.0.5.0.4.0.3.0.2.0.1.f.2.0.0.0.0.0.0.0.1.e.5.0.0.0.0. JOINEUIS.lorawan.net. IN AAAA 2001:db8:85a3::8a2e:370:7334```.. So you have to send us the DNS RR type (i.e. ```AAAA```) and the reference (```2001:db8:85a3::8a2e:370:7334``` )
+    * a.) example ```60050a.netid.iotreg.net  IN	NS 	example.com.```. So you have to send us the DNS RR type (i.e. ```NS```) and the reference (```example.com``` )
+    * b. example ```8.0.7.0.6.0.5.0.4.0.3.0.2.0.1.f.2.0.0.0.0.0.0.0.1.e.5.0.0.0.0. joineui.iotreg.net. IN AAAA 2001:db8:85a3::8a2e:370:7334```.. So you have to send us the DNS RR type (i.e. ```AAAA```) and the reference (```2001:db8:85a3::8a2e:370:7334``` )
  
 ## Verify that your JoinEUI and NetID is publicly accessible
 
