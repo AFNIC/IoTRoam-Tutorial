@@ -71,5 +71,5 @@ Once verified that your NetID and JoinEUI provisioned in the Internet are public
 [AS Setup]: https://github.com/afnic/IoTRoam-Tutorial/blob/master/ApplicationServer-Setup.md
 [OTAA-Setup  Using DNS]: https://github.com/afnic/IoTRoam-Tutorial/blob/master/OTAA-Using-DNS.md
 [discussion]: https://github.com/AFNIC/IoTRoam-Tutorial/issues/2
-[not yet] https://github.com/AFNIC/IoTRoam-Tutorial/blob/master/Provisioned-NetIDs-JoinEUIs.md
+[not yet]: https://github.com/AFNIC/IoTRoam-Tutorial/blob/master/Provisioned-NetIDs-JoinEUIs.md
 
