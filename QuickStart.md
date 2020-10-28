@@ -8,29 +8,32 @@
  
  1. [Verify] whether the required ports are open between the different interfaces  
  2. [Check] the Gateway Set up 
- 3. [Validate] that the NS receives data from the RGW 
- 4. [Make sure]  that the AS receives data from the NS  
- 5. Verify that you have provisioned your NetID and JoinEUI to the [DNS] 
- 6. For the Certificates
+ 3. Download the NS and the AS open sourc software from 
+    * a.) https://forum.chirpstack.io/t/release-chirpstack-network-server-v3-11-test-releases/9502
+    * b.) https://forum.chirpstack.io/t/release-chirpstack-application-server-v3-13-test-releases/9501
+ 4. [Validate] that the NS receives data from the RGW 
+ 5. [Make sure]  that the AS receives data from the NS  
+ 6. Verify that you have provisioned your NetID and JoinEUI to the [DNS] 
+ 7. For the Certificates
     * a.) Clone/Copy the required [Files] 
     * b.) The directory structure is as [here]
     * b.) Modify [intermediate-csr.json]  to suit you
     * c.) Modify "Certificate.json" in all subdirectories to suit your "CN" and host "IP addresses"
     * d.) For roaming, You have to modify the directory name to suit your NetId. In the [example], the NetID is "000000"
- 7. Install [cfssl]. A Short installation [tutorial]
- 8. Following has to be done to run the [Makefile]
+ 8. Install [cfssl]. A Short installation [tutorial]
+ 9. Following has to be done to run the [Makefile]
     * a.) Request your intermediate public and private certificate by sending mail to `"sandoche.balakrichenan@afnic.fr"` AND `"antoine.bernard@afnic.fr"`
     * b.) Copy the intermediate public and private certificate to the intermediate directory as specified in the directory structure as [here]: 
     * c.) Modify the `NetId` in the top of the `Makefile` to suit your `NetId`
     * d.) Run `make`
- 9. Make sure that your `.toml`config files are correctly configured
+ 10. Make sure that your `.toml`config files are correctly configured
     * a.) Sample [Network-Server-Config] file. For detailed information, [chirpstack-network-server-config] page
     * b.) Sample [Application-Server-Config] file. For detialed information, [chirpstack-application-server-config] page
-10. Launch the NS and the AS 
+11. Launch the NS and the AS 
     * a.) Initial [Configuration] of the Web interface : 
     * b.) One needs to add *Certain* [Client certificates] to the Web interface to enable encryption between AS and NS. 
-11. For Roaming, in the Web interace [define] the home NetID of a device, define a variable called "home_netid" with as value for example "000001" if that is the home NetID you would like to assign.
-12. Once everything  is done, send a Join-Request from your device to check the passive roaming OTAA.
+12. For Roaming, in the Web interace [define] the home NetID of a device, define a variable called "home_netid" with as value for example "000001" if that is the home NetID you would like to assign.
+13. Once everything  is done, send a Join-Request from your device to check the passive roaming OTAA.
 
 
 
