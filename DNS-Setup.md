@@ -34,8 +34,8 @@ As of now, the LoRa DNS service is not operational. Hence, for the Academic LoRa
 To provision the information in the DNS (Currently only the JoinEUI info), Send your JoinEUI information (i.e. the Join EUI and the corresponding JS domain name or IP address) to  sandoche.balakrichenan@afnic.fr AND antoine.bernard@afnic.fr. 
 
 If you are confused regarding JoinEUI and NetID:
-  a.) There is a [discussion]
-  b.) Make sure that your test NetID or JoinEUI is not yet provisioned in the roaming platform
+1. There is a [discussion]
+2. Make sure that your test NetID or JoinEUI is [not yet] provisioned in the roaming platform
  
 ## Verify that your JoinEUI and NetID is publicly accessible
 
@@ -71,4 +71,5 @@ Once verified that your NetID and JoinEUI provisioned in the Internet are public
 [AS Setup]: https://github.com/afnic/IoTRoam-Tutorial/blob/master/ApplicationServer-Setup.md
 [OTAA-Setup  Using DNS]: https://github.com/afnic/IoTRoam-Tutorial/blob/master/OTAA-Using-DNS.md
 [discussion]: https://github.com/AFNIC/IoTRoam-Tutorial/issues/2
+[not yet] https://github.com/AFNIC/IoTRoam-Tutorial/blob/master/Provisioned-NetIDs-JoinEUIs.md
 
