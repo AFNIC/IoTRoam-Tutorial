@@ -13,7 +13,7 @@
     * b.) https://forum.chirpstack.io/t/release-chirpstack-application-server-v3-13-test-releases/9501
  4. [Validate] that the NS receives data from the RGW 
  5. [Make sure]  that the AS receives data from the NS  
- 6. Verify that you have provisioned your NetID and JoinEUI to the https://github.com/AFNIC/IoTRoam-Tutorial/blob/master/DNS-Setup.md#how-to-provision-netids-and-joineuis-in-the-dns-for-otaa-and-roaming
+ 6. Verify that you have provisioned your NetID and JoinEUI to the https://github.com/AFNIC/IoTRoam-Tutorial/blob/master/DNS-Setup.md#why-the-dns-infrastructure-is-required-in-the-lorawan-set-up
  7. For the Certificates
     * a.) Clone/Copy the required [Files] 
     * b.) The directory structure is as [here]
