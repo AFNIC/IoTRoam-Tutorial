@@ -11,7 +11,7 @@
  2. [Check] the Gateway Set up 
  
  3. Download the NS and the AS open sourc software from 
-     * a.) https://forum.chirpstack.io/t/release-chirpstack-network-server-v3-11-test-releases/9502
+    * a.) https://forum.chirpstack.io/t/release-chirpstack-network-server-v3-11-test-releases/9502
     * b.) https://forum.chirpstack.io/t/release-chirpstack-application-server-v3-13-test-releases/9501
     
  4. [Validate] that the NS receives data from the RGW 
