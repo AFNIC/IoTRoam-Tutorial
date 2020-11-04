@@ -37,7 +37,7 @@
     
  10. Make sure that your `.toml` config files are correctly configured
      * a.) Sample [Network-Server-Config] file. For detailed information, [chirpstack-network-server-config] page
-    * b.) Sample [Application-Server-Config] file. For detialed information, [chirpstack-application-server-config] page
+     * b.) Sample [Application-Server-Config] file. For detialed information, [chirpstack-application-server-config] page
     
 11. Launch the NS and the AS 
     * a.) Initial [Configuration] of the Web interface  
