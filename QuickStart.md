@@ -21,7 +21,7 @@
  6. Verify that you have provisioned your NetID and JoinEUI to the [DNS]
  
  7. For the Certificates
-     * a.) Clone/Copy the required [Files] 
+    * a.) Clone/Copy the required [Files] 
     * b.) The directory structure is as [here]
     * b.) Modify [intermediate-csr.json]  to suit you
     * c.) Modify "Certificate.json" in all subdirectories to suit your "CN" and host "IP addresses"
@@ -30,17 +30,16 @@
  8. Install [cfssl]. A Short installation [tutorial]
  
  9. Following has to be done to run the [Makefile]
-     * a.) Request your intermediate public and private certificate by sending mail to `"sandoche.balakrichenan@afnic.fr"` AND `"antoine.bernard@afnic.fr"`
+    * a.) Request your intermediate public and private certificate by sending mail to `"sandoche.balakrichenan@afnic.fr"` AND `"antoine.bernard@afnic.fr"`
     * b.) Copy the intermediate public and private certificate to the intermediate directory as specified in the directory structure as [here]: 
     * c.) Modify the `NetId` in the top of the `Makefile` to suit your `NetId`
     * d.) Run `make`
     
  10. Make sure that your `.toml` config files are correctly configured
-    * a.) Sample [Network-Server-Config] file. For detailed information, [chirpstack-network-server-config] page
+     * a.) Sample [Network-Server-Config] file. For detailed information, [chirpstack-network-server-config] page
     * b.) Sample [Application-Server-Config] file. For detialed information, [chirpstack-application-server-config] page
     
 11. Launch the NS and the AS 
-
     * a.) Initial [Configuration] of the Web interface  
     * b.) One needs to add *Certain* [Client certificates] to the Web interface to enable encryption between AS and NS 
     
